@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+div{
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+
+.div1{
+    position: relative;
+    width: auto;
+    height: 150px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.div2{
+    position: absolute;
+    left: 200px;
+    width: 250px;
+    height: 100px;
+    bottom: 0px;
+    background-color: #999;
+    text-align: center;
+}
+
+.fix{
+    position: fixed;
+    height: 100px;
+    width: 250px;
+    background-color: #999;
+    text-align: center;
+    top: 0px;
+}
